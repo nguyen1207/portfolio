@@ -63,7 +63,7 @@
     <section id="demo">
       <p class="kicker">Featured Project</p>
       <h2>Saigon Digital Twin</h2>
-      <p class="subtitle">Photorealistic 3D city streets from public imagery · Personal R&amp;D, 2026</p>
+      <p class="subtitle">Photorealistic 3D city streets from public imagery</p>
 
       <figure class="fig">
         <div class="viewer" id="viewer">
@@ -77,8 +77,9 @@
           </button>
         </div>
         <figcaption>
-          <b>Interactive demo.</b> Gaussian Splatting reconstruction of Hải Triều Street, District 1,
-          beside Bitexco Financial Tower, built from crowd-sourced 360° street panoramas.
+          <b>Interactive demo.</b> 2D Gaussian Splatting reconstruction of Hải Triều Street, District 1,
+          beside Bitexco Financial Tower, built from 100+ public 360° street panoramas (1,200 views).
+          Moving traffic and pedestrians are removed by a multi-view consistency check; parked vehicles stay.
           Drag to orbit, scroll to zoom, W A S D to fly.
           <a href="viewer/index.html?webgl" target="_blank" rel="noopener">Open full screen ↗</a>
         </figcaption>
@@ -90,10 +91,10 @@
       <h2>Publications</h2>
       <ol class="pubs">
         <li>
-          <span class="pub-title">Enhancing Vietnamese to English Translation with Teencode and Slang Understanding</span>
-          <span class="pub-authors"><u>Nguyen Hoang Nguyen</u>, Phuoc Tran</span>
-          <span class="pub-venue">EAI International Conference on Artificial Intelligence for Communications and Networks (AICN) · <b class="accepted">Accepted</b></span>
-          <span class="pub-note">34.9 BLEU on VLSP2020, up to +8.1 BLEU over GPT-3.5 and Google Translate · <a href="https://huggingface.co/nguyen1207/Vistral-7B-MT" target="_blank" rel="noopener">[model]</a></span>
+          <span class="pub-title">Enhancing Vietnamese to English Translations With Slang and Teencode Understanding</span>
+          <span class="pub-authors"><u>Nguyen Hoang Nguyen</u>, Phuoc Tran, Dat Duong</span>
+          <span class="pub-venue">EAI International Conference on Artificial Intelligence for Communications and Networks (AICON) · <b class="accepted">Accepted</b></span>
+          <span class="pub-note">34.9 BLEU on VLSP2020, up to +7.5 BLEU over GPT-3.5 and Google Translate · <a href="https://huggingface.co/nguyen1207/Vistral-7B-MT" target="_blank" rel="noopener">[model]</a></span>
         </li>
       </ol>
     </section>
@@ -108,8 +109,8 @@
         </li>
         <li>
           <span class="pub-title">Vietnamese-English Translation with Teencode and Slang Understanding</span>
-          <span class="pub-venue">Vistral-7B · 4-bit LoRA fine-tuning</span>
-          <span class="pub-note">34.9 BLEU on VLSP2020 · beats GPT-3.5 and Google Translate by up to +8.1 BLEU · <a href="https://huggingface.co/nguyen1207/Vistral-7B-MT" target="_blank" rel="noopener">[model]</a></span>
+          <span class="pub-venue">Vistral-7B · 4-bit QLoRA fine-tuning</span>
+          <span class="pub-note">34.9 BLEU on VLSP2020 · beats GPT-3.5 and Google Translate by up to +7.5 BLEU · <a href="https://huggingface.co/nguyen1207/Vistral-7B-MT" target="_blank" rel="noopener">[model]</a></span>
         </li>
         <li>
           <span class="pub-title">Code as Policy: LLM-Driven Robot Manipulation</span>
@@ -123,10 +124,8 @@
     <section id="skills">
       <h2>Skills</h2>
       <dl class="skills">
-        <dt>3D Reconstruction &amp; Novel View Synthesis</dt>
-        <dd>3D Gaussian Splatting, gsplat, Neural Harmonic Textures, 3DGUT, COLMAP structure-from-motion, camera calibration, MCMC densification, PSNR/SSIM/LPIPS evaluation, Rerun</dd>
-        <dt>Simulation &amp; Robotics</dt>
-        <dd>NVIDIA Isaac Sim, NVIDIA Isaac Lab, Genesis, Reinforcement Learning, PPO, Reward Shaping, MDP Design, skrl</dd>
+        <dt>3D Vision &amp; Simulation</dt>
+        <dd>3D &amp; 2D Gaussian Splatting, gsplat, Neural Harmonic Textures, 3DGUT, COLMAP structure-from-motion, camera calibration, MCMC densification, Mask2Former, RoMa, Depth Anything, Rerun, NVIDIA Isaac Sim, Genesis</dd>
         <dt>ML Engineering &amp; LLMs</dt>
         <dd>Python, PyTorch, OpenCV, NumPy, VLMs, LoRA &amp; QLoRA, LangChain, LangGraph, Agentic RAG, Weights &amp; Biases, pytest</dd>
         <dt>Infrastructure</dt>
